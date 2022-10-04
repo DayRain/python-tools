@@ -1,25 +1,28 @@
-# ÏîÄ¿½éÉÜ
-pythonÐ´µÄÒ»Ð©¹¤¾ß
+# é¡¹ç›®ä»‹ç»
+pythonå†™çš„ä¸€äº›å·¥å…·
 
-# excel¹¤¾ß
-¿ÉÒÔ½«Êý¾Ý¿âµÄÊý¾Ý£¬°´ÕÕÖ¸¶¨²éÑ¯sql£¬µ¼³öÖÁexcel¡£
+# desktop
+
+# python-excel
+
+æ‰§è¡ŒæŸ¥è¯¢sqlï¼ˆMysqlæ•°æ®åº“ï¼‰ï¼Œå¯¼å‡ºç»“æžœè‡³excelã€‚
 
 - db.properties
 
-ÅäÖÃÊý¾Ý¿âµÄÁ¬½Ó²ÎÊý
+é…ç½®æ•°æ®åº“çš„è¿žæŽ¥å‚æ•°
 
 - excel.properties
 
-ÅäÖÃexcelÏà¹Ø²ÎÊý£¬²¢Ìá¹©Ö´ÐÐsql
+é…ç½®excelç›¸å…³å‚æ•°ï¼Œå¹¶æä¾›æ‰§è¡Œsql
 
 - bean-map.properties
 
-Ìá¹©Êý¾Ý¿â×Ö¶ÎÓëÖÐÎÄÃûµÄÓ³Éä¹ØÏµ¡£
+æä¾›æ•°æ®åº“å­—æ®µä¸Žä¸­æ–‡åçš„æ˜ å°„å…³ç³»ã€‚
 
-ÒÔÈçÏÂsqlÎªÀý
+ä»¥å¦‚ä¸‹sqlä¸ºä¾‹
 
 select `userName` from user
 
-¿ÉÒÔÑ¡ÔñÔÚbean-mapÖÐÅäÖÃÓ³Éä¹ØÏµ userName=ÐÕÃû
+å¯ä»¥é€‰æ‹©åœ¨bean-mapä¸­é…ç½®æ˜ å°„å…³ç³» userName=å§“å
 
-Ò²¿ÉÒÔ²»ÅäÖÃbean-map£¬µ«ÐèÒª°Ñsql¸ÄÎª select `userName` as ÐÕÃû from user 
+ä¹Ÿå¯ä»¥ä¸é…ç½®bean-mapï¼Œä½†éœ€è¦æŠŠsqlæ”¹ä¸º select `userName` as å§“å from user 
